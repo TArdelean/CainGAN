@@ -53,9 +53,7 @@ class CainTrainer:
 
     def init_networks(self):
         """
-        lossesG
-        lossesD
-        current_epoch, num_vid, i_batch_current
+        Loads: GAN_state_dict, lossesG, lossesD, epoch, i_batch
         """
 
         if not os.path.isfile(self.opt.weight_path + "-0") or self.opt.resume is None:
