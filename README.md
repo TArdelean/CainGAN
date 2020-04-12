@@ -43,6 +43,9 @@ This will train an 8-shot model on GPU 0.
 Change `data_root` path to the directory of your dataset. The format of the directory is expected to be similar to the 
 one used in [VoxCeleb2](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html) dataset.
 
+## Acknowledgement
+Special thanks go to Xperi Corporation that provided the environment and physical resources that made this work possible.
+
 
 ## Citation
 Should you find this work useful for your research, please cite:
