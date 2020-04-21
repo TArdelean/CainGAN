@@ -1,4 +1,5 @@
 ## Pose Manipulation with Identity Preservation
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pose-manipulation-with-identity-preservation/talking-head-generation-on-voxceleb2-8-shot)](https://paperswithcode.com/sota/talking-head-generation-on-voxceleb2-8-shot?p=pose-manipulation-with-identity-preservation)
 
 ### [Paper](http://www.univagora.ro/jour/index.php/ijccc/article/view/3862)
 Pose Manipulation with Identity Preservation. Andrei-Timotei Ardelean, Lucian Mircea Sasu in 
