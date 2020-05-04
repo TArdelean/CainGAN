@@ -42,7 +42,11 @@ python train.py --K 8 --cuda_visible 0 --data_root vox2selection/mp4
 ```
 This will train an 8-shot model on GPU 0.
 Change `data_root` path to the directory of your dataset. The format of the directory is expected to be similar to the 
-one used in [VoxCeleb2](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html) dataset.
+one used in [VoxCeleb2](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html) dataset.  
+The `extract_landmarks.py` script can be used to precompute landmarks for faster training. For example:
+```
+python extract_landmarks.py --data_root vox2selection/mp4 --output_path vox2selection/land --device 'cuda'
+```
 
 ## Acknowledgement
 Special thanks go to Xperi Corporation that provided the environment and physical resources that made this work possible.
