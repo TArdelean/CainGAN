@@ -5,11 +5,12 @@
 Pose Manipulation with Identity Preservation. Andrei-Timotei Ardelean, Lucian Mircea Sasu in 
 International Journal of Computers Communications & Control
 
-<img src="demo/2-src.png" width="200" alt="img"/>
-<img src="demo/2-gen.png" width="200" alt="img"/>
-<img src="demo/3-gen.png" width="200" alt="img"/>
-<img src="demo/3-gen.png" width="200" alt="img"/>
-
+<p>
+    <img src="demo/2-src.png" width="200" alt="img"/>
+    <img src="demo/2-gen.png" width="200" alt="img"/>
+    <img src="demo/3-gen.png" width="200" alt="img"/>
+    <img src="demo/3-gen.png" width="200" alt="img"/>
+</p>
 
 Official PyTorch implementation of CainGAN, used to perform few-shot image generation. Starting from one or more source pictures, 
 the model can synthesize face images in novel poses while preserving the person's identity.
@@ -24,12 +25,28 @@ Licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-
 
 ## Demo
 ##### Sources
-![img1-src] ![img6-src] ![img4-src] ![img5-src]
+<p>
+    <img src="demo/1-src.png" width="200" alt="img"/>
+    <img src="demo/6-src.png" width="200" alt="img"/>
+    <img src="demo/4-src.png" width="200" alt="img"/>
+    <img src="demo/5-src.png" width="200" alt="img"/>
+</p>
+
 ##### Generated (one shot)
-![img1-gen] ![img6-gen] ![img4-gen] ![img5-gen]
+<p>
+    <img src="demo/1-gen.png" width="200" alt="img"/>
+    <img src="demo/6-gen.png" width="200" alt="img"/>
+    <img src="demo/4-gen.png" width="200" alt="img"/>
+    <img src="demo/5-gen.png" width="200" alt="img"/>
+</p>
 
 ##### Image animation (one shot)
-![vid1-src] ![vid1-gen] ![vid2-src] ![vid2-gen]
+<p>
+    <img src="demo/monalisa-src.jpg" width="200" alt="img"/>
+    <img src="demo/monalisa.gif" width="200" alt="gif"/>
+    <img src="demo/vincenzo-src.jpg" width="200" alt="img"/>
+    <img src="demo/vincenzo.gif" width="200" alt="gif"/>
+</p>
 
 ## Installation
 A ready to use conda environment is provided. To create the python environment run:
