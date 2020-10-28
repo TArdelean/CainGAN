@@ -1,14 +1,16 @@
 ## Pose Manipulation with Identity Preservation
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pose-manipulation-with-identity-preservation/talking-head-generation-on-voxceleb2-8-shot)](https://paperswithcode.com/sota/talking-head-generation-on-voxceleb2-8-shot?p=pose-manipulation-with-identity-preservation)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pose-manipulation-with-identity-preservation-1/talking-head-generation-on-voxceleb2-8-shot)](https://paperswithcode.com/sota/talking-head-generation-on-voxceleb2-8-shot?p=pose-manipulation-with-identity-preservation-1)
 
 ### [Paper](http://www.univagora.ro/jour/index.php/ijccc/article/view/3862)
 Pose Manipulation with Identity Preservation. Andrei-Timotei Ardelean, Lucian Mircea Sasu in 
 International Journal of Computers Communications & Control
 
+<img src="demo/2-src.png" width="200" alt="img"/>
+<img src="demo/2-gen.png" width="200" alt="img"/>
+<img src="demo/3-gen.png" width="200" alt="img"/>
+<img src="demo/3-gen.png" width="200" alt="img"/>
 
-![img2-src] ![img2-gen] ![img3-src] ![img3-gen]
 
- 
 Official PyTorch implementation of CainGAN, used to perform few-shot image generation. Starting from one or more source pictures, 
 the model can synthesize face images in novel poses while preserving the person's identity.
 
